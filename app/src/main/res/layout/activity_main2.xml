@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl1"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="350dp">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="178dp"
+            android:layout_height="76dp"
+            android:text="Button"
+
+            android:src="@mipmap/ic_launcher_round"
+            />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="173dp"
+            android:layout_height="74dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:text="Button" />
+
+
+        <LinearLayout
+            android:id="@+id/rl2"
+            android:layout_width="411dp"
+            android:layout_height="377dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="2dp">
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="182dp"
+                android:layout_height="85dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:text="Button" />
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="184dp"
+                android:layout_height="84dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="Button" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="205dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:text="Button" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</RelativeLayout>

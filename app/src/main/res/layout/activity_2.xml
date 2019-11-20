@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+
+
+
+    <ImageView
+        android:id="@+id/hand"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/hand" />
+
+    <ImageView
+        android:id="@+id/up"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="160dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/up1" />
+
+    <ImageView
+        android:id="@+id/down"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="160dp"
+        android:rotation="180"
+        android:visibility="visible"
+        app:srcCompat="@drawable/up1" />
+
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="102dp"
+        android:rotation="-90"
+        android:visibility="visible"
+        app:srcCompat="@drawable/up1" />
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginTop="420dp"
+        android:rotation="90"
+        android:visibility="visible"
+        app:srcCompat="@drawable/up1" />
+
+    <ImageView
+        android:id="@+id/resume"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="420dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/resume" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:text="Hand_Control"
+        android:textColor="@color/brown"
+        android:textSize="25dp" />
+
+</RelativeLayout>
